@@ -1,0 +1,30 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: anon-kde-streamiso
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git
+Homepage: https://github.com/Whonix/anon-kde-streamiso
+Vcs-Browser: https://github.com/Whonix/anon-kde-streamiso
+Vcs-Git: https://github.com/Whonix/anon-kde-streamiso.git
+Standards-Version: 3.9.4
+
+Package: anon-kde-streamiso
+Architecture: all
+Depends: ${misc:Depends}
+Description: Stream Isolation (proxy) settings for KDE apps for Anonymity Distributions
+ Configures global proxy settings, which acts as a fallback if no other proxy
+ settings are set, for KDE applications to socks 192.168.0.10:9122.
+ .
+ Otherwise unconfigured KDE applications would use no proxy settings
+ (Transparent Proxying) if the anonymity distribution features a transparent
+ proxy.
+ .
+ Useful to improve stream isolation.
+ .
+ On the other hand, anonymity distributions not featuring transparent proxying
+ should probably not install this package by default, because then unconfigured
+ KDE applications should by default not be able to connect.
