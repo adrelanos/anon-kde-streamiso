@@ -14,7 +14,7 @@ Standards-Version: 3.9.4
 
 Package: anon-kde-streamiso
 Architecture: all
-Depends: ${misc:Depends}
+Depends: kde-baseapps-bin, ${misc:Depends}
 Description: Stream Isolation (proxy) settings for KDE apps for Anonymity Distributions
  Configures global proxy settings, which acts as a fallback if no other proxy
  settings are set, for KDE applications to socks 192.168.0.10:9122.
