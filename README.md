@@ -1,7 +1,7 @@
 # Stream Isolation (proxy) settings for KDE apps for Anonymity Distributions #
 
 Configures global proxy settings, which acts as a fallback if no other proxy
-settings are set, for KDE applications to socks 192.168.0.10:9122.
+settings are set, for KDE applications to socks 10.152.152.10:9122.
 
 Otherwise unconfigured KDE applications would use no proxy settings
 (Transparent Proxying) if the anonymity distribution features a transparent
