@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile
 Homepage: https://github.com/Whonix/anon-kde-streamiso
 Vcs-Browser: https://github.com/Whonix/anon-kde-streamiso
 Vcs-Git: https://github.com/Whonix/anon-kde-streamiso.git
-Standards-Version: 3.9.4
+Standards-Version: 3.9.6
 
 Package: anon-kde-streamiso
 Architecture: all
